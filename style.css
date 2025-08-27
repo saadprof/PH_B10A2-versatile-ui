@@ -13,6 +13,26 @@ body {
     line-height: 1.5rem;
     color: rgba(255,255,255,0.6);
 }
+.common-btn{
+    padding: 1rem 1.5rem;
+    background-color: #e6533c;
+    color: #ffffff;
+    border: 1px solid #e6533c;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.common-btn:hover{
+    background-color: #f33f23;
+}
+.plain-btn{
+    background-color: transparent;
+    border: 1px solid #ffffff;
+}
+.plain-btn:hover{
+    background-color: transparent;
+    border: 1px solid #ffffff81;
+}
 
 
 
