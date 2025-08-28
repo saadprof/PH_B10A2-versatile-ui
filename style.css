@@ -14,7 +14,7 @@ body {
     color: rgba(255, 255, 255, 0.6);
 }
 .common-btn {
-    padding: 1rem 1.5rem;
+    padding: 1rem 2rem;
     background-color: #e6533c;
     color: #ffffff;
     border: 1px solid #e6533c;
@@ -172,4 +172,19 @@ body {
     border: 5px solid rgba(255, 255, 255, 0.1);
     border-radius: 100px;
     margin-bottom: 1rem;
+}
+
+#main #run-extra {
+    width: 80%;
+    margin: 3rem auto;
+    display: flex;
+    align-items: center;
+    gap: 15rem;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+}
+#main #run-extra > img {
+    width: 33%;
+    border-radius: 10px;
 }
