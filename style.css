@@ -210,14 +210,14 @@ body {
     align-items: end;
     justify-content: center;
 }
-#main #training-exercises #exercieses-container > div p{
+#main #training-exercises #exercieses-container > div p {
     visibility: hidden;
-    transition: all .3s ease;
+    transition: all 0.3s ease;
 }
-#main #training-exercises #exercieses-container > div:hover p{
+#main #training-exercises #exercieses-container > div:hover p {
     font-size: 1.2rem;
     padding: 1rem 0;
-    background-color: rgba(255,255,255,0.1);
+    background-color: rgba(255, 255, 255, 0.1);
     width: 100%;
     visibility: visible;
 }
@@ -259,4 +259,42 @@ body {
         url(images/exercise6.jpg);
     background-position: center;
     background-size: cover;
+}
+
+
+#main #bmi-calculator-container #bmi-calculator-text{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+#main #bmi-calculator-bg{
+    background-color: #222222;
+}
+#main #bmi-calculator{
+    width: 80%;
+    margin: 3rem auto;
+    padding: 3rem 0;
+    display: flex;
+    gap: 10rem;
+}
+
+
+#main #bmi-calculator-container #bmi-calculator h3{
+    font-size: 2rem;
+}
+#main #bmi-calculator-container #bmi-chart{
+    border-collapse: collapse;
+}
+#main #bmi-calculator-container #bmi-chart, th, td{
+    border: 1px solid #444;
+    padding: 1rem;
+    margin: 2rem 0;
+}
+#main #bmi-calculator #calculator-container{
+    width: 60%;
+}
+#main #bmi-calculator #calculator-container #calculator{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
 }
