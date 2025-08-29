@@ -282,6 +282,8 @@ body {
 #main #bmi-calculator-container #bmi-calculator h3{
     font-size: 2rem;
 }
+
+/* border collapse is to collapse double border in table */
 #main #bmi-calculator-container #bmi-chart{
     border-collapse: collapse;
 }
@@ -297,4 +299,16 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
+    margin: 1rem 0;
+}
+
+#main #bmi-calculator-container #calculator-container #calculator input, #calculator select{
+    color: rgb(147, 147, 147);
+    background-color: rgba(255,255,255,.1);
+    padding: .8rem;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+#main #bmi-calculator-container #calculator-container #activity{
+    grid-column: 1/3;
 }
