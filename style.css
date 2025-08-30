@@ -444,4 +444,18 @@ hr{
     #hedaer #header-nav #nav-links{
         flex-wrap: wrap;
     }
+
+    #header #header-banner #banner-content #banner-content-h1 {
+        font-size: 3rem;
+    }
+    #header #header-banner{
+        flex-direction: column;
+    }
+    #header #header-banner #banner-image{
+        width: 80%;
+    }
+    #header #header-banner #banner-image #vid-workout-count{
+        right: -80px;
+        top: -70px;
+    }
 }
