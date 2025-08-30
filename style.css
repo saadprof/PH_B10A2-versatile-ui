@@ -513,4 +513,11 @@ hr {
     #main #our-team #team-member-container {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    #footer #footer-information {
+        flex-wrap: wrap;
+    }
+    #footer #footer-information #footer-moto {
+        width: 100%;
+    }
 }
