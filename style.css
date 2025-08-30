@@ -469,23 +469,38 @@ hr {
         width: 90%;
         gap: 2rem;
     }
-    #main #run-extra > img{
+    #main #run-extra > img {
         width: 100%;
     }
 
-    #main #training-exercises{
+    #main #training-exercises {
         max-width: 90%;
     }
-    #main #training-exercises p{
+    #main #training-exercises p {
         width: 90%;
     }
     #main #training-exercises #exercieses-container {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
     #main #training-exercises #exercieses-container .img2 {
         grid-column: unset;
     }
     #main #training-exercises #exercieses-container .img4 {
+        grid-column: unset;
+    }
+
+    #main #bmi-calculator{
+        width: 90%;
+        flex-direction: column;
+        gap: 0;
+    }
+    #main #bmi-calculator #calculator-container {
+        width: 100%;
+    }
+    #main #bmi-calculator #calculator-container #calculator {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #main #bmi-calculator-container #calculator-container #activity {
         grid-column: unset;
     }
 }
