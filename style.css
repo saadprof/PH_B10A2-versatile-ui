@@ -437,6 +437,9 @@ hr{
 
 
 @media screen and (max-width:568.5px){
+    .common-h2{
+        font-size: 2rem;
+    }
     #header #header-nav{
         flex-direction: column;
         gap: 1rem;
@@ -457,5 +460,9 @@ hr{
     #header #header-banner #banner-image #vid-workout-count{
         right: -80px;
         top: -70px;
+    }
+
+    #main #change-habit #habit-container{
+        flex-direction: column;
     }
 }
