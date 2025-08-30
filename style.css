@@ -330,7 +330,7 @@ td {
     gap: 1rem;
     margin: 2rem 0;
     padding: 1rem;
-    background-color: #333;
+    background-color: #222;
     border-radius: 10px;
 }
 #main #our-team #team-member-container > div {
@@ -383,4 +383,43 @@ td {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+#footer {
+    background-color: #111;
+}
+#footer #footer-information {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+#footer #footer-information #footer-moto {
+    width: 50%;
+}
+#footer #footer-information #footer-logo {
+    font-size: 3rem;
+    font-style: italic;
+    color: #e6533c;
+    font-weight: bold;
+}
+#footer #footer-information #about-us ul,
+#app-design ul {
+    list-style-type: none;
+}
+#footer #footer-information #about-us li,
+#app-design li {
+    padding: 0.3rem;
+    margin: 0.3rem 0;
+}
+#footer #footer-information #about-us li a,
+#app-design li a {
+    text-decoration: none;
+    color: #888888;
+    transition: all 3s ease;
+}
+#footer #footer-information #about-us li:hover a,
+#app-design li:hover a {
+    text-decoration: underline;
 }
