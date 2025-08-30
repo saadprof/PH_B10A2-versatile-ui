@@ -489,7 +489,7 @@ hr {
         grid-column: unset;
     }
 
-    #main #bmi-calculator{
+    #main #bmi-calculator {
         width: 90%;
         flex-direction: column;
         gap: 0;
@@ -502,5 +502,15 @@ hr {
     }
     #main #bmi-calculator-container #calculator-container #activity {
         grid-column: unset;
+    }
+
+    #main #our-team {
+        max-width: 95%;
+    }
+    #main #our-team > p {
+        width: 80%;
+    }
+    #main #our-team #team-member-container {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
