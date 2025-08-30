@@ -472,4 +472,20 @@ hr {
     #main #run-extra > img{
         width: 100%;
     }
+
+    #main #training-exercises{
+        max-width: 90%;
+    }
+    #main #training-exercises p{
+        width: 90%;
+    }
+    #main #training-exercises #exercieses-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #main #training-exercises #exercieses-container .img2 {
+        grid-column: unset;
+    }
+    #main #training-exercises #exercieses-container .img4 {
+        grid-column: unset;
+    }
 }
